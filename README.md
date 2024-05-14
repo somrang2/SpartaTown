@@ -3,6 +3,8 @@
 ![image](https://github.com/somrang2/SpartaTown/assets/167191895/31078d31-4de7-45e5-b60c-97256ca7f586)
 처음 화면-> 캐릭터 2중에 하나를 선택하여 클릭
 2개 이상 10개 이하의 문장의 이름을 입력하고 PLAY버튼을 클릭
+
+
 ![image](https://github.com/somrang2/SpartaTown/assets/167191895/0dbd1e5a-f8f1-4a9d-941e-e582856a83bc)
 
 
