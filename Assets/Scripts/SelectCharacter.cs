@@ -28,6 +28,7 @@ public class SelectCharacter : MonoBehaviour
         Player2Select.SetActive(false);
         Player1.SetActive(true);
         Player2.SetActive(false);
+        GameManager.Getplayer1(Player1);
     }
 
     public void SelectPlayer2()
@@ -37,6 +38,7 @@ public class SelectCharacter : MonoBehaviour
         Player2Select.SetActive(false);
         Player1.SetActive(false);
         Player2.SetActive(true);
+        GameManager.Getplayer2(Player2);
     }
 
 }

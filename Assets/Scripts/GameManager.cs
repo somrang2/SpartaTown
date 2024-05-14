@@ -21,6 +21,15 @@ public class GameManager : MonoBehaviour
         }
     }
     
+    public static void Getplayer1(bool value)
+    {
+        player1 = value;
+    }
+
+    public static void Getplayer2(bool value)
+    {
+        player2 = value;
+    }
 
     public static void SetPlayerName(string playerName)
     {

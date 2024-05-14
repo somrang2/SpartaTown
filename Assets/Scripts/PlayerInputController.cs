@@ -10,8 +10,6 @@ using UnityEngine.SceneManagement;
 public class PlayerInputController : TopDownController
 {
     private Camera camera;
-    private GameObject player1Instance;
-    private GameObject player2instance;
     public GameObject player1;
     public GameObject player2;
 
@@ -23,13 +21,12 @@ public class PlayerInputController : TopDownController
     private void Start()
     {
 
-
-        if(player1Instance == true)
+        if(GameManager.player1 == true)
         {
             player1.SetActive(true);
             player2.SetActive(false);
         }
-        else if(player2instance == true)
+        else if(GameManager.player2 == true)
         {
             player1.SetActive(false);
             player2.SetActive(true);
